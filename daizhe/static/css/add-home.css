@@ -1,0 +1,65 @@
+/*偷闲体验*/
+.lazy-test .test-box .test-box-title {
+  overflow: hidden;
+}
+.lazy-test .test-box .test-box-title .title-fl {
+  position: relative;
+  left: -520px;
+}
+.lazy-test .test-box .test-box-title .title-fr {
+  position: relative;
+  right: -520px;
+}
+/*参与话题*/
+.talk-about .test-box-title {
+  overflow: hidden;
+}
+.talk-about .test-box-title .title-fl {
+  position: relative;
+  left: -520px;
+}
+.talk-about .test-box-title .title-fr {
+  position: relative;
+  right: -520px;
+}
+/*意犹未尽*/
+.go-on .test-title {
+  overflow: hidden;
+}
+.go-on p:nth-child(1) {
+  position: relative;
+  top: -80px;
+}
+.go-on p:nth-child(2) {
+  position: relative;
+  bottom: -80px;
+}
+/*----------------------------------js  追加的类----------------------------------*/
+.add-title-fl-p {
+  -webkit-transition: 1s;
+          transition: 1s;
+  -webkit-transform: translate(520px, 0);
+      -ms-transform: translate(520px, 0);
+          transform: translate(520px, 0);
+}
+.add-title-fr-p {
+  -webkit-transition: 1s;
+          transition: 1s;
+  -webkit-transform: translate(-520px, 0);
+      -ms-transform: translate(-520px, 0);
+          transform: translate(-520px, 0);
+}
+.add-test-title-p1 {
+  -webkit-transition: 1s;
+          transition: 1s;
+  -webkit-transform: translate(0, 80px);
+      -ms-transform: translate(0, 80px);
+          transform: translate(0, 80px);
+}
+.add-test-title-p2 {
+  -webkit-transition: 1s;
+          transition: 1s;
+  -webkit-transform: translate(0, -80px);
+      -ms-transform: translate(0, -80px);
+          transform: translate(0, -80px);
+}

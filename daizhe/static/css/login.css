@@ -1,0 +1,235 @@
+.user-login {
+  width: 100%;
+  min-width: 1210px;
+  height: 793px;
+  background: #fff;
+}
+.user-login .login-container {
+  padding-top: 88px;
+  height: 620px;
+  padding-bottom: 85px;
+  width: 850px;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #707070;
+}
+.user-login .login-container .container-content {
+  width: 630px;
+  height: 540px;
+  margin: 0px auto;
+  background: #f5f5f5;
+  border-radius: 10px;
+  position: relative;
+}
+.user-login .login-container .container-content .content-h1 {
+  font-size: 26px;
+  color: #363636;
+  padding: 45px 0px 10px 260px;
+}
+.user-login .login-container .container-content .content-link {
+  text-align: center;
+  overflow: hidden;
+}
+.user-login .login-container .container-content .content-link .link-aclick {
+  display: inline-block;
+  width: 60px;
+  height: 65px;
+  margin: 0 9px;
+  background: url(../images/login/log3_fox.png) no-repeat;
+  margin-top: 18px;
+}
+.user-login .login-container .container-content .content-link .a1 {
+  background-position: 0px 0px;
+}
+.user-login .login-container .container-content .content-link .a2 {
+  background-position: 0px -75px;
+}
+.user-login .login-container .container-content .content-link .a3 {
+  background-position: 0px -154px;
+}
+.user-login .login-container .container-content .content-link .a4 {
+  background-position: 0px -238px;
+}
+.user-login .login-container .container-content .content-link .a1:hover {
+  background-position: -74px 0px;
+}
+.user-login .login-container .container-content .content-link .a2:hover {
+  background-position: -74px -75px;
+}
+.user-login .login-container .container-content .content-link .a3:hover {
+  background-position: -74px -154px;
+}
+.user-login .login-container .container-content .content-link .a4:hover {
+  background-position: -74px -238px;
+}
+.user-login .login-container .container-content .content-link .link-p {
+  font-size: 13px;
+  padding-top: 12px;
+  color: #707070;
+}
+.user-login .login-container .content-huo {
+  width: 293px;
+  height: 28px;
+  background: url(../images/login/huo.png) no-repeat;
+  margin: 20px 0px 0px 167px;
+}
+.user-login .login-container .content-form {
+  background: #f5f5f5;
+  height: 196px;
+  padding-left: 0px;
+  overflow: hidden;
+  margin: 30px 0px 0px 172px;
+}
+.user-login .login-container .content-form .form-log1 {
+  position: relative;
+  margin-bottom: 9px;
+}
+.user-login .login-container .content-form .form-log1 .log1-ico1 {
+  width: 17px;
+  height: 12px;
+  background: url(../images/login/log_ico.png) no-repeat;
+  display: inline-block;
+  position: absolute;
+  left: 12px;
+  top: 11px;
+}
+.user-login .login-container .content-form .form-log1 .log1-error {
+  display: none;
+  font-size: 13px;
+  color: #ff6e68;
+  position: absolute;
+  top: 8px;
+  left: 45px;
+}
+.user-login .login-container .content-form .form-log1 .log1-errorImg {
+  display: none;
+  width: 18px;
+  height: 19px;
+  background: url(../images/login/log_ico.png) 0px -41px;
+  position: absolute;
+  left: 260px;
+  top: 8px;
+}
+.user-login .login-container .content-form .form-log1 .log1-input {
+  width: 245px;
+  padding-left: 40px;
+  height: 32px;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  border-radius: 5px;
+}
+.user-login .login-container .content-form .form-log2 {
+  position: relative;
+  margin-bottom: 9px;
+}
+.user-login .login-container .content-form .form-log2 .log2-ico2 {
+  width: 17px;
+  height: 18px;
+  background: url(../images/login/log_ico.png) 0px -17px no-repeat;
+  display: inline-block;
+  position: absolute;
+  left: 12px;
+  top: 8px;
+}
+.user-login .login-container .content-form .form-log2 .log2-error {
+  display: none;
+  font-size: 13px;
+  color: #ff6e68;
+  position: absolute;
+  top: 8px;
+  left: 45px;
+}
+.user-login .login-container .content-form .form-log2 .log2-errorImg {
+  display: none;
+  width: 18px;
+  height: 19px;
+  background: url(../images/login/log_ico.png) 0px -41px;
+  position: absolute;
+  left: 260px;
+  top: 8px;
+}
+.user-login .login-container .content-form .form-log2 .log2-input {
+  width: 245px;
+  padding-left: 40px;
+  height: 32px;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  border-radius: 5px;
+}
+.user-login .login-container .content-form .form-btn {
+  display: inline-block;
+  background: #fcb616;
+  color: #fff;
+  font-size: 14px;
+  text-shadow: 1px 1px 1px #ad3c25;
+  width: 288px;
+  height: 32px;
+  line-height: 25px;
+  border: 1px solid #dba658;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.user-login .login-container .content-form .form-btn:hover {
+  cursor: pointer;
+  transform: scale(1, 1.05);
+}
+.user-login .login-container .content-form .form-log3 {
+  color: #555;
+  margin-top: 12px;
+  font-size: 12px;
+}
+.user-login .login-container .content-form .form-log3 .log3-label {
+  cursor: default;
+}
+.user-login .login-container .content-form .form-log3 .log3-label input {
+  position: relative;
+  top: 2px;
+  margin-left: 2px;
+}
+.user-login .login-container .content-form .form-log3 .log3-label a {
+  margin-left: 173px;
+  color: #555;
+}
+.user-login .login-container .content-form .form-p {
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+  font-size: 12px;
+}
+
+
+/*表单新增*/
+.log1-input,.log2-input{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color:#fff;
+  border:1px solid #ccc;
+  min-height:30px;
+  display:block;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.log1-input:focus,.log2-input:focus{
+  -webkit-box-shadow:0 0 25px #ccc;
+  -moz-box-shadow:0 0 25px #ccc;
+  box-shadow:0 0 25px #ccc;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.log1-input:not(:focus),.log2-input:not(:focus){
+  opacity:0.5;
+}
+input[type=submit] {
+  background:none;
+  opacity:1.0;
+}
+
+span.error {
+    display: block;
+    margin: 10px;
+    color: #FF9800;
+}

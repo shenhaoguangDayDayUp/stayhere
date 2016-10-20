@@ -1,0 +1,972 @@
+.banner {
+  width: 100%;
+  height: 650px;
+  overflow: hidden;
+  position: relative;
+}
+.banner .btn {
+  display: block;
+  width: 24px;
+  height: 71px;
+  background: url("../images/home/banner/arrows5.png");
+  position: absolute;
+  top: 50%;
+  z-index: 9999;
+  margin-top: -35px;
+  cursor: pointer;
+}
+.banner .btn-fl {
+  left: 10%;
+  background-position: 0px -73px;
+}
+.banner .btn-fl:hover {
+  background-position: 0px 0px;
+}
+.banner .btn-fr {
+  right: 10%;
+  background-position: -25px -73px;
+}
+.banner .btn-fr:hover {
+  background-position: -25px 0px;
+}
+.banner ul.banner-list {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.banner ul.banner-list li {
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  overflow: hidden;
+}
+.banner ul.banner-list li div.bg {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  padding-top: 1px;
+  position: relative;
+}
+.banner ul.banner-list li div.bg div.word-show {
+  width: 900px;
+  height: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.banner ul.banner-list li div.bg div.word-show h5 {
+  font-size: 36px;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.banner ul.banner-list li div.bg div.word-show p {
+  font-size: 15px;
+  color: #fff;
+}
+.banner ul.banner-list li div.bg div.word-show a {
+  font-size: 15px;
+  color: #50c8d7;
+  display: block;
+  height: 44px;
+  width: 256px;
+  line-height: 44px;
+  text-align: center;
+  border: 2px solid #50c8d7;
+  margin: 40px auto 0px;
+}
+.banner ul.banner-list li div.bg div.word-show a:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+.banner ul.banner-list li:nth-child(1) {
+  background: url("../images/home/banner/banner-01.jpg") center no-repeat;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+}
+.banner ul.banner-list li:nth-child(1) a.wait {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.banner ul.banner-list li:nth-child(2) {
+  background: url("../images/home/banner/banner-02.jpg") center no-repeat;
+  z-index: 1;
+  top: -650px;
+  left: -100%;
+}
+.banner ul.banner-list li:nth-child(3) {
+  background: url("../images/home/banner/banner-03.jpg") center no-repeat;
+  z-index: 1;
+  top: -650px;
+  right: -100%;
+}
+.banner ul.banner-list li:nth-child(4) {
+  background: url("../images/home/banner/banner-04.jpg") center no-repeat;
+  z-index: 1;
+  top: 650px;
+  left: -100%;
+}
+.banner ul.banner-list li:nth-child(5) {
+  background: url("../images/home/banner/banner-05.jpg") center no-repeat;
+  z-index: 1;
+  top: 650px;
+  left: 0px;
+}
+.banner ul.banner-list li:nth-child(6) {
+  background: url("../images/home/banner/banner-06.jpg") center no-repeat;
+  z-index: 1;
+  top: 650px;
+  right: -100%;
+}
+article {
+  width: 1125px;
+}
+article.action {
+  height: 160px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+article.action section {
+  font-size: 13px;
+  color: #a0a0a0;
+  transition: all 1s;
+}
+article.action section p {
+  line-height: 2;
+  width: 280px;
+}
+article.action section a {
+  color: #84d3e2;
+  text-decoration: underline;
+}
+article.action section.action-test {
+  background: url("../images/home/action-test.png") center no-repeat;
+  float: left;
+  width: 340px;
+  height: 90px;
+  padding-left: 220px;
+  padding-top: 70px;
+  margin-left: -580px;
+}
+article.action .changeMGL {
+  margin-left: 0px!important;
+}
+article.action section.action-buy {
+  background: url("../images/home/action-buy.png") center no-repeat;
+  float: right;
+  width: 350px;
+  height: 90px;
+  padding-left: 200px;
+  padding-top: 70px;
+  margin-right: -580px;
+}
+article.action .changeMGR {
+  margin-right: 0px!important;
+}
+.test {
+  margin: 0px auto;
+  padding-top: 1px;
+}
+.test .test-title {
+  width: 100%;
+  height: 162px;
+  text-align: center;
+  padding-top: 1px;
+  overflow: hidden;
+}
+.test .test-title p:nth-child(1) {
+  font-size: 32px;
+  margin-top: -362px;
+  /*margin-top:40px;*/
+  margin-bottom: 600px;
+  transition: all 1s;
+}
+.test .test-title p.addMG {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.test .test-title p:nth-child(2) {
+  font-size: 14px;
+  color: #a0a0a0;
+  line-height: 44px;
+}
+.wonderful-test {
+  margin-bottom: 50px;
+}
+.wonderful-test .test-show {
+  height: 540px;
+  overflow: hidden;
+}
+.wonderful-test .test-show .show-box .show-content {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.wonderful-test .test-show .show-box .show-content li {
+  width: 50%;
+  height: 180px;
+  float: left;
+  position: relative;
+  background: #84c6ca;
+}
+.wonderful-test .test-show .show-box .show-content li img {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transform-origin: 0% 0% 0;
+  transition: all 1s;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform-origin: 0% 0% 0;
+  -webkit-transition: all 1s;
+  -moz-transform-style: preserve-3d;
+  -moz-transform-origin: 0% 0% 0;
+  -moz-transition: all 1s;
+  -o-transform-style: preserve-3d;
+  -o-transform-origin: 0% 0% 0;
+  -o-transition: all 1s;
+  -ms-transform-style: preserve-3d;
+  -ms-transform-origin: 0% 0% 0;
+  -ms-transition: all 1s;
+  opcity: 0;
+}
+.wonderful-test .test-show .show-box .show-content li a:nth-child(2) {
+  width: 90%;
+  height: 45px;
+  background: url("../images/home/meng.png") center no-repeat;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: #fff;
+  font-size: 13px;
+  padding: 35px 5% 0px;
+  z-index: 2;
+}
+.wonderful-test .test-show .show-box .show-content li .add-bg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background: rgba(3, 3, 3, 0.6);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  opacity: 0;
+  transform: rotateY(-90deg);
+  transform-style: preserve-3d;
+  transform-origin: 100% 100% 0;
+  transition: all 1s 0.3s;
+  -webkit-transform: rotateY(-90deg);
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform-origin: 100% 100% 0;
+  -webkit-transition: all 1s 0.3s;
+  -moz--transform: rotateY(-90deg);
+  -moz--transform-style: preserve-3d;
+  -moz-transform-origin: 100% 100% 0;
+  -moz-transition: all 1s 0.3s;
+  -o-transform: rotateY(-90deg);
+  -o-transform-style: preserve-3d;
+  -o-transform-origin: 100% 100% 0;
+  -o-transition: all 1s 0.3s;
+  -ms-transform: rotateY(-90deg);
+  -ms-transform-style: preserve-3d;
+  -ms-transform-origin: 100% 100% 0;
+  -ms-transition: all 1s 0.3s;
+  cursor: pointer;
+}
+.wonderful-test .test-show .show-box .show-content li .add-bg p {
+  padding: 10px 0px;
+  margin-top: 30px;
+  background: #111;
+  text-align: center;
+  font-size: 17px;
+  color: #fff;
+  font-weight: bold;
+}
+.wonderful-test .test-show .show-box .show-content li:hover img {
+  transform: rotateY(90deg);
+  -webkit-transform: rotateY(90deg);
+  -moz-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  opacity: 1;
+}
+.wonderful-test .test-show .show-box .show-content li:hover .add-bg {
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  opacity: 1;
+}
+.wonderful-test .test-show .show-fl {
+  width: 561px;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+}
+.wonderful-test .test-show .show-fl .show-fl-top {
+  height: 180px;
+  width: 100%;
+  background: #84c6ca;
+  padding-top: 1px;
+}
+.wonderful-test .test-show .show-fl .show-fl-top div {
+  font-size: 13px;
+  color: #fff;
+  height: 72px;
+  margin-top: 50px;
+}
+.wonderful-test .test-show .show-fl .show-fl-top .fl {
+  width: 200px;
+  float: left;
+  text-align: right;
+  padding-right: 30px;
+  border-right: 2px solid #fff;
+}
+.wonderful-test .test-show .show-fl .show-fl-top .fl p {
+  font-size: 25px;
+  color: #fff;
+  line-height: 1.5;
+}
+.wonderful-test .test-show .show-fl .show-fl-top .fr {
+  width: 295px;
+  float: right;
+  text-align: left;
+  padding-left: 30px;
+}
+.wonderful-test .test-show .show-fl .show-fl-top .fr p {
+  line-height: 2;
+  color: #fff;
+}
+.wonderful-test .test-show .show-fl .show-fl-top .fr a {
+  display: block;
+  color: #84c6ca;
+  width: 50px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background: #fff;
+  border: 2px solid #fff;
+}
+.wonderful-test .test-show .show-fl .show-fl-top .fr a:hover {
+  background: #84c6ca;
+  color: #fff;
+}
+.wonderful-test .test-show .show-fr {
+  width: 564px;
+  height: 100%;
+  float: right;
+}
+.wonderful-test .test-show .show-fr .show-fr-top {
+  width: 100%;
+  height: 360px;
+  overflow: hidden;
+}
+.wonderful-test .test-show .show-fr .show-fr-top a {
+  color: #fff;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 1px;
+  position: relative;
+}
+.wonderful-test .test-show .show-fr .show-fr-top a img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  z-index: -1;
+  transition: all 2s;
+}
+.wonderful-test .test-show .show-fr .show-fr-top a p {
+  font-size: 20px;
+  margin-top: 122px;
+  color: #fff;
+}
+.wonderful-test .test-show .show-fr .show-fr-top a span {
+  font-size: 13px;
+  display: block;
+  margin: 10px auto;
+}
+.wonderful-test .test-show .show-fr .show-fr-top a span:nth-child(4) {
+  width: 130px;
+  height: 36px;
+  line-height: 36px;
+  border: 2px solid #50c8d7;
+  color: #50c8d7;
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.wonderful-test .test-show .show-fr .show-fr-top a:hover img {
+  transform: scale(0.8);
+  transform: scale(1.2);
+}
+.test-box {
+  width: 1125px;
+  padding-top: 1px;
+  margin: 0 auto;
+}
+.test-box .test-box-title {
+  height: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.test-box .test-box-title .title-fl {
+  width: 46%;
+  text-align: right;
+  float: left;
+  color: #a0a0a0;
+  border-right: 1px solid #a0a0a0;
+  padding-right: 43px;
+  margin-left: -600px;
+  transition: all 1s;
+}
+.test-box .test-box-title .title-fl p {
+  font-size: 26px;
+  color: #2f2f2f;
+}
+.test-box .test-box-title .title-fl span {
+  font-size: 14px;
+}
+.test-box .test-box-title .title-fr {
+  width: 46%;
+  text-align: left;
+  float: right;
+  margin-right: -600px;
+  transition: all 1s;
+}
+.test-box .test-box-title .title-fr p {
+  line-height: 1.2;
+  color: #a0a0a0;
+  font-size: 14px;
+}
+.test-box .test-box-title .title-fr a {
+  margin-top: 3px;
+  display: block;
+  width: 50px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  font-size: 14px;
+  background: #f2a399;
+  border: 2px solid #f2a399;
+  color: #fff;
+  text-decoration: none;
+}
+.test-box .test-box-title .title-fr a:hover {
+  background: #fff;
+  color: #f2a399;
+}
+.test-box .test-box-title .changeLMG {
+  margin-left: 0px;
+}
+.test-box .test-box-title .changeRMG {
+  margin-right: 0px;
+}
+.test-box .box-show {
+  width: 100%;
+  height: 607px;
+}
+.test-box .box-show ul {
+  width: 105%;
+}
+.test-box .box-show ul li {
+  width: 361px;
+  height: 232px;
+  background: #fff;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  float: left;
+}
+.test-box .box-show ul li a {
+  display: block;
+  height: 100%;
+  color: #7d7d7d;
+  position: relative;
+}
+.test-box .box-show ul li a img {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.test-box .box-show ul li a p {
+  width: 321px;
+  padding: 100px 20px 0px;
+  font-size: 21px;
+  color: #fff;
+  height: 132px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+}
+.test-box .box-show ul li a p:hover {
+  text-decoration: underline;
+}
+.lazy-test {
+  width: 100%;
+  height: 700px;
+  background: #f2f2f2;
+  margin: 0 auto;
+}
+.talk-about {
+  height: 445px;
+}
+.talk-about .talk-about ul li {
+  background: #fff;
+  overflow: hidden;
+}
+.talk-about .talk-about ul li a img {
+  transform-style: preserve-3d;
+  transform: rotate(10deg);
+  transition: all 1s;
+}
+.talk-about .talk-about ul li a p {
+  background: rgba(132, 198, 202, 0.6);
+  transform-style: preserve-3d;
+  transition: all 1s;
+  transform: rotateX(90deg);
+  transform-origin: 0% 50% 0;
+}
+.talk-about .talk-about ul li a:hover p {
+  transform: rotateX(0deg);
+}
+.talk-about .talk-about ul li a:hover img {
+  transform: rotateX(0deg);
+}
+.go-on {
+  margin-bottom: 80px;
+}
+.go-on .go-on-show {
+  width: 1124px;
+  height: 486px;
+}
+.go-on .go-on-show li {
+  position: relative;
+  border-radius: 50%;
+}
+.go-on .go-on-show li .icon {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #000;
+  position: absolute;
+  z-index: 9999;
+}
+.go-on .go-on-show li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  border: 15px solid rgba(255, 255, 255, 0.6);
+  transition: all 1s;
+}
+.go-on .go-on-show li:nth-child(1) {
+  width: 562px;
+  height: 486px;
+  background: #84c6ca url("../images/home/like1_t.png") center no-repeat;
+  background-position: 0px 88px;
+  float: left;
+}
+.go-on .go-on-show li:nth-child(1) a:nth-child(1) {
+  background: url("../images/home/like1.jpg") center no-repeat;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: 0% 50%;
+  -moz-transform-origin: 0% 50%;
+  -ms-transform-origin: 0% 50%;
+  -o-transform-origin: 0% 50%;
+  transform-origin: 0% 50%;
+}
+.go-on .go-on-show li:nth-child(1):hover a {
+  -webkit-transform: rotate3d(0, 1, 0, -120deg);
+  -moz-transform: rotate3d(0, 1, 0, -120deg);
+  -ms-transform: rotate3d(0, 1, 0, -120deg);
+  -o-transform: rotate3d(0, 1, 0, -120deg);
+  transform: rotate3d(0, 1, 0, -120deg);
+}
+.go-on .go-on-show li:nth-child(2) {
+  width: 562px;
+  height: 244px;
+  background: #84c6ca url("../images/home/like2_t.png") center no-repeat;
+  float: right;
+}
+.go-on .go-on-show li:nth-child(2) .icon {
+  right: 9px;
+  top: 90px;
+}
+.go-on .go-on-show li:nth-child(2) a:nth-child(1) {
+  background: url("../images/home/like2.jpg") center no-repeat;
+  -webkit-transform-origin: 95% 40%;
+  -moz-transform-origin: 95% 40%;
+  -ms-transform-origin: 95% 40%;
+  -o-transform-origin: 95% 40%;
+  transform-origin: 95% 40%;
+}
+.go-on .go-on-show li:nth-child(2):hover a {
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -o-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+.go-on .go-on-show li:nth-child(3) {
+  width: 562px;
+  height: 244px;
+  background: #84c6ca url("../images/home/like3_t.png") center no-repeat;
+  float: right;
+}
+.go-on .go-on-show li:nth-child(3) .icon {
+  right: 15px;
+  top: 80px;
+}
+.go-on .go-on-show li:nth-child(3) a:nth-child(1) {
+  background: url("../images/home/like3.jpg") center no-repeat;
+  -webkit-transform-origin: 95% 40%;
+  -moz-transform-origin: 95% 40%;
+  -ms-transform-origin: 95% 40%;
+  -o-transform-origin: 95% 40%;
+  transform-origin: 95% 40%;
+}
+.go-on .go-on-show li:nth-child(3):hover a {
+  -webkit-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -o-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+}
+.now-test {
+  width: 100%;
+  height: 400px;
+  background: url("../images/home/foot_banner.jpg") center no-repeat;
+  padding-top: 1px;
+}
+.now-test a {
+  display: block;
+  width: 250px;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  color: #fff;
+  border: 3px solid #fff;
+  margin: 230px auto 0px;
+  background: #69d3da;
+  font-size: 14px;
+}
+.now-test a:hover {
+  background: #38c4cc;
+  text-decoration: none;
+}
+
+
+
+/*reset*/
+/*
+html5doctor.com Reset Stylesheet
+v1.4
+2009-07-27
+Author: Richard Clark - http://richclarkdesign.com
+*/
+
+
+article, aside, dialog, figure, footer, header,
+nav, section {
+  display:block;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+  outline: 0;
+}
+
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+
+mark {
+  background-color:#ff9;
+  color:#000;
+  font-style:italic;
+  font-weight:bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom:1px dotted #000;
+  cursor:help;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+hr {
+  display:block;
+  height:1px;
+  border:0;
+  border-top:1px solid #cccccc;
+  margin:1em 0;
+  padding:0;
+}
+
+input, select {
+  vertical-align:middle;
+}
+
+
+/*style*/
+
+
+/*
+Float clearing goodness from Handcrafted CSS book ------------------------------------------------------------- */
+.group:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+* html .group { height: 1%; }
+*:first-child+html .group { min-height: 1px; }
+
+// body {  font-family: Arial, Helvetica, sans-serif; }
+
+@font-face {
+  font-family: 'BonvenoCFLight';
+  src: url('../fonts/BonvenoCF-Light-webfont.eot?') format('eot'),
+  url('../fonts/BonvenoCF-Light-webfont.woff') format('woff'),
+  url('../fonts/BonvenoCF-Light-webfont.ttf') format('truetype'),
+  url('../fonts/BonvenoCF-Light-webfont.svg#webfontIEwcSbIo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AdelleBasicBold';
+  src: url('../fonts/adellebasic_bold-webfont.eot?') format('eot'),
+  url('../fonts/adellebasic_bold-webfont.woff') format('woff'),
+  url('../fonts/adellebasic_bold-webfont.ttf') format('truetype'),
+  url('../fonts/adellebasic_bold-webfont.svg#webfontll9eFuSn') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+#container { width: 920px; padding: 0 20px; margin: 0 auto; }
+
+#header { height: 36px; background: url(../images/bluesquares.gif); position: relative; }
+#header a.g3d { background: url(../images/g3dlabs.png); text-indent: -9999px; width: 145px; height: 50px; display: block; position: absolute; left: 12px; top: 4px; }
+
+h1 { background: url(http://intranet.global3digital.com/intranet/assets/images/g3dlogo.gif) no-repeat; width: 170px; height: 38px; text-indent: -9999px; }
+h1, h2, h3, p { color: #333; }
+h2 { font-family: 'AdelleBasicBold', Arial, sans-serif; }
+h3 { font-family: 'BonvenoCFLight', Arial, sans-serif; margin-bottom: 20px; }
+
+a { text-decoration: none; color: #0090e2; }
+a.ig:hover { background: #0090e2; color: #fff; padding: 3px 10px; border-radius: 20px; }
+
+p { line-height: 23px; margin-bottom: 20px; }
+p:last-of-type { margin-bottom: 0px; }
+
+#carbonads-container { margin: 0 auto 50px; width: 300px;  }
+#carbonads-container .carbonad .carbonad-tag { text-align: left !important; }
+
+
+
+
+/*css3---3d*/
+
+/* -------------------------------------------------------------------------------------------------------------------------
+A CSS3 presentation demonstrating how to take advantage of modern browsers while still allowing the content to be easily
+accessible in older, less capable browsers.
+Inspired by http://playground.deaxon.com/css/lightbox by http://twitter.com/deaxon
+---------------------------------------------------------------------------------------------------------------------------- */
+
+h2.title { font-size: 68px; letter-spacing: -3px; font-weight: bold; text-align: center; margin-top: 35px; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6); }
+h2.title span { font-size: 38px; line-height: 48px; display: block; letter-spacing: -2px; color: rgba(51, 51, 51, 0.5); }
+
+/* -------------------------------------------------------------------------------------------------------------------------
+Grid of images
+---------------------------------------------------------------------------------------------------------------------------- */
+#grid { margin: 35px 0; }
+/*
+Add the transition affect to the images in the grid. Any changes to the element will be transtioned from it's current state, for example on :hover */
+#grid li { float: left; list-style: none; margin: 0 25px 25px 0; position: relative; overflow: hidden; border-top: 1px solid rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.15s ease-in;
+  -moz-transition: all 0.15s ease-in;
+  -ms-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
+}
+#grid li.end { margin-right: 0; }
+#grid li:nth-child(3n) { margin-right: 0; }
+#grid li:hover { z-index: 2;
+  -webkit-transform: scale(1.2) translateY(-40px);
+  -moz-transform: scale(1.2) translateY(-40px);
+  -ms-transform: scale(1.2) translateY(-40px);
+  transform: scale(1.2) translateY(-40px);
+  -webkit-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+/*
+Rotate left hand column to the left upon hover */
+#grid li:nth-child(3n-2):hover {
+  -webkit-transform: scale(1.2) translate3d(0, -30px, 0) rotate(-2.5deg);
+  -moz-transform: scale(1.2) translateY(-30px) rotate(-2.5deg);
+  -ms-transform: scale(1.2) translateY(-30px) rotate(-2.5deg);
+  transform: scale(1.2) translateY(-30px) rotate(-2.5deg);
+}
+/*
+Rotate every third li with :nth-child(3n) (right hand column in this demo) to the right upon hover */
+#grid li:nth-child(3n):hover {
+  -webkit-transform: scale(1.2) translate3d(0, -30px, 0) rotate(2.5deg);
+  -moz-transform: scale(1.2) translateY(-30px) rotate(2.5deg);
+  -ms-transform: scale(1.2) translateY(-30px) rotate(2.5deg);
+  transform: scale(1.2) translateY(-30px) rotate(2.5deg);
+}
+
+#grid img, li[id]:target div, #grid li, .backface {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#grid .details {
+  position: absolute;
+  bottom: 0;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.87);
+  border-top: 1px solid #fff;
+  width: 94%;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  -webkit-border-radius:  0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+  -webkit-box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.35);
+}
+#grid .details h3 { margin-bottom: 0px; letter-spacing: -1px; }
+#grid .details a.more {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 12px;
+
+  padding: 6px 10px;
+  background-color: rgba(0, 0, 0, 0.03);
+
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 15px;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.6);
+  -moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.6);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.6);
+  -webkit-transition: all 0.15s ease-in;
+}
+
+#grid .details a.more:hover { background-color: #0090e2; color: #fff; }
+
+
+#information { z-index: 20; }
+#information li div h3 { background-color: #0090E2; border-radius: 5px 5px 0 0; color: #fff; font-size: 20px; font-weight: bold; margin: -30px -30px 20px; padding: 15px 30px; text-shadow: rgba(0, 0, 0, 0.4492); text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.45); letter-spacing: -2px; }
+
+/* -------------------------------------------------------------------------------------------------------------------------
+Using :target we can style the specific ID of the list item when clicked/tapped on eg: www.url.com/#info1
+---------------------------------------------------------------------------------------------------------------------------- */
+li[id]:target { width: 100%; height: 100%; opacity: 1; z-index: 10; position: fixed; overflow-x: hidden; /* overflow-y: scroll; */ margin-bottom: 25px; }
+li[id]:target::-webkit-scrollbar { width: 8px; background-color: rgba(0,0,0,0.6); position: relative;  }
+li[id]:target::-webkit-scrollbar-thumb { -webkit-border-radius: 1ex; background-color: #6CF; }
+li[id]:target div { position: relative; margin: 0 auto; top: 15%; background: #fff; width: 600px; padding: 30px;
+  -webkit-box-shadow: 0 1px 8px #000;
+  -moz-box-shadow: 0 1px 8px #000;
+  box-shadow: 0 1px 8px #000;
+  -webkit-animation: lightbox 0.75s cubic-bezier(0,0,0,1);
+  -moz-animation: lightbox 0.5s cubic-bezier(0,0,0,1);
+}
+/*
+Style list items with an ID */
+li[id] { overflow: hidden; position: absolute; width: 0; height: 0; left: 0; top: 0; opacity: 0; background: rgba(0,0,0,.8);
+  -webkit-transition: opacity 0.2s cubic-bezier(0,0,0,1);
+  -moz-transition: opacity 0.2s cubic-bezier(0,0,0,1);
+  transition: opacity 0.2s cubic-bezier(0,0,0,1);
+}
+/*
+Lightbox close button */
+li[id] div a.close { background: #000; position: absolute; top: -10px; left: -10px; line-height: 0; color: #fff; text-align: center; font-weight: bold; border: 2px solid #fff; padding: 12px 9px 9px; border-radius: 30px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
+  box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
+}
+
+/*
+Animation keyframes for the lightbox.
+First line is at 0% so we're setting it to be 5x the actual size and rotate it around the Y axis by -270 degrees
+100% resets it's actual size and resets the rotation back to flat. */
+@-webkit-keyframes lightbox {
+  0% { -webkit-transform: scale(5) rotateY(-270deg); }
+  100% { -webkit-transform: scale(1) rotateY(0deg); }
+}
+
+@-moz-keyframes lightbox {
+  0% { -moz-transform: scale(5) /* rotateY(-270deg) */; }
+  100% { -moz-transform: scale(1) /* rotateY(0deg) */; }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------
+Use Modernizer (http://www.modernizr.com) to display content for browsers that don't support CSS Transforms.
+It now defaults to linking to the ID ie: www.url.com/#info3 and moving to that position on the page.
+---------------------------------------------------------------------------------------------------------------------------- */
+.no-csstransforms #information li { overflow: visible; position: relative; margin: 0 auto; margin-bottom: 25px; background: #fff; width: 600px; padding: 30px; height: auto; list-style: none; }
+.no-csstransforms #information li div a.close { position: relative; background: transparent; padding: 0; color: #0090e2; font-size: 12px; font-weight: normal; left: 0; top: 0; }
+
+
+
+

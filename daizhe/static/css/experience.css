@@ -1,0 +1,420 @@
+.experience-banner-top {
+  width: 100%;
+  height: 38px;
+  min-width: 1150px;
+  background-color: black;
+  padding-top: 12px;
+}
+.experience-banner-top .banner-top-left {
+  display: inline-block;
+  float: left;
+  width: 670px;
+  height: 40px;
+  padding-left: 50px;
+}
+.experience-banner-top .banner-top-left .banner-top-logo {
+  display: inline-block;
+  width: 135px;
+  height: 27px;
+  background: url(../images/experience/banner-top-logo.png);
+}
+.experience-banner-top .banner-top-left .banner-top-nav {
+  display: inline-block;
+  padding-left: 25px;
+}
+.experience-banner-top .banner-top-left .banner-top-nav .top-nav-list {
+  float: left;
+}
+.experience-banner-top .banner-top-left .banner-top-nav .top-nav-list .top-nav-title {
+  color: #fff;
+  font-size: 13px;
+  font-family: "微软雅黑";
+  padding: 21px 21px 0 21px;
+  position: relative;
+}
+.experience-banner-top .banner-top-left .banner-top-nav .top-nav-list .top-nav-title .mini {
+  position: absolute;
+  color: #ff5b54;
+  font-size: 9px;
+  left: 87px;
+  top: 15px;
+}
+.experience-banner-top .banner-top-right {
+  display: inline-block;
+  float: right;
+  width: 394px;
+  height: 40px;
+  padding-right: 50px;
+}
+.experience-banner-top .banner-top-right .banner-top-side {
+  float: right;
+}
+.experience-banner-top .banner-top-right .banner-top-side .top-nav-selection {
+  float: left;
+}
+.experience-banner-top .banner-top-right .banner-top-side .top-nav-search {
+  width: 202px;
+  height: 27px;
+  padding-right: 20px;
+}
+.experience-banner-top .banner-top-right .banner-top-side .top-nav-login {
+  width: 26px;
+  height: 17px;
+  font-size: 13px;
+  color: #a0a0a0;
+}
+.experience-banner-top .banner-top-right .banner-top-side .top-nav-register {
+  width: 26px;
+  height: 17px;
+  font-size: 13px;
+  color: #a0a0a0;
+}
+.experience-banner-top .banner-top-right .banner-top-side .top-nav-try {
+  width: 56px;
+  height: 17px;
+  line-height: 25px;
+  background: #03aeba;
+  text-align: center;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 14px;
+  padding: 4px 27px;
+}
+.experience-nav {
+  width: 100%;
+  height: 346px;
+  min-width: 1150px;
+  background: url(../images/experience/list_banner.png) center top no-repeat;
+}
+.experience-nav .nav-container {
+  width: 950px;
+  height: 186px;
+  margin: auto;
+  padding: 56px 40px 0 10px;
+}
+.experience-nav .nav-container .nav-selection {
+  display: inline-block;
+  width: 152px;
+  height: 152px;
+  margin-right: 80px;
+  margin-top: 37px;
+  border-radius: 76px;
+}
+.experience-nav .nav-container .best {
+  background: url(../images/experience/list_bigNav1.png) -10px -5px no-repeat;
+}
+.experience-nav .nav-container .travel {
+  background: url(../images/experience/list_bigNav3.png) -7px -10px no-repeat;
+}
+.experience-nav .nav-container .leisure {
+  background: url(../images/experience/list_bigNav2.png) -7px -11px no-repeat;
+}
+.experience-nav .nav-container .topic {
+  background: url(../images/experience/list_bigNav4new.png) -8px -12px no-repeat;
+}
+.experience-banner-bottom {
+  width: 100%;
+  min-width: 1150px;
+  height: 50px;
+  background: #2f2f2f;
+  border-bottom: 3px solid #50c8d7;
+}
+.experience-banner-bottom .banner-bottom-container {
+  width: 1000px;
+  margin: auto;
+}
+.experience-banner-bottom .banner-bottom-container .banner-bottom-title {
+  display: inline-block;
+  width: 660px;
+  height: 50px;
+  background: url(../images/experience/list_title1.png) no-repeat;
+}
+.experience-banner-bottom .banner-bottom-container .set-try {
+  display: inline-block;
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 13px;
+  border-radius: 15px;
+  text-align: center;
+  color: #fff;
+  background-color: #50c8d7;
+  margin-left: 110px;
+  position: absolute;
+  margin-top: 10px;
+}
+.experience-main {
+  width: 100%;
+  // min-width: 1150px;
+  background-color: #efefef;
+  padding-top: 25px;
+}
+.experience-main .main-nav {
+    width: 1000px;
+    margin: 10px auto;
+    background: #fff;
+    font-size: 13px;
+    color: #959595;
+    overflow: hidden;
+}
+.experience-main .main-nav .type-title {
+  float: left;
+  margin: 0 10px;
+  line-height: 52px;
+  color: #959595;
+}
+.experience-main .main-nav .type-title .title-color {
+  color: #959595;
+  padding: 1px 5px 2px 5px;
+}
+.experience-main .main-nav .type-title .all {
+  background-color: #3d3d3d;
+  color: white;
+}
+.experience-main .main-nav .type-title .type-icon {
+  display: inline-block;
+  width: 18px;
+  height: 23px;
+  background: url(../images/experience/icos.png) -351px -113px no-repeat;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.experience-main .main-content {
+  width: 1000px;
+  margin: auto;
+  padding: 20px 0;
+}
+.experience-main .main-content .left-content {
+  float: left;
+  width: 700px;
+}
+.experience-main .main-content .left-content .show-right {
+  float: right;
+}
+.experience-main .main-content .left-content .content-show {
+  float: left;
+  display: inline-block;
+  width: 320px;
+  height: 304px;
+  box-shadow: 0 0 5px #ccc;
+  margin-right: 25px;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.experience-main .main-content .left-content .content-show .show-mb {
+  transition: 1s;
+  position: absolute;
+  top: 0px;
+  left: -320px;
+  width: 320px;
+  height: 204px;
+  text-align: center;
+  z-index: 10;
+  cursor: pointer;
+  background: none repeat scroll rgba(0, 0, 0, 0.701961);
+}
+.experience-main .main-content .left-content .content-show .show-mb a {
+  display: inline-block;
+  width: 320px;
+  height: 204px;
+  line-height: 204px;
+}
+.experience-main .main-content .left-content .content-show .show-mb a span {
+  font-size: 20px;
+  padding: 8px 10px;
+  border: 2px solid #46C8D7;
+}
+.experience-main .main-content .left-content .content-show .show-mb a:hover {
+  text-decoration: none;
+}
+.experience-main .main-content .left-content .content-show .show-img {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  display: inline-block;
+}
+.experience-main .main-content .left-content .content-show .tri-free {
+  background: url(../images/experience/list_jiaob.png) 0px -202px no-repeat;
+}
+.experience-main .main-content .left-content .content-show .tri-buy {
+  background: url(../images/experience/list_jiaob.png) 0px -266px no-repeat;
+}
+.experience-main .main-content .left-content .content-show .show-des {
+  width: 284px;
+  height: 80px;
+  background-color: white;
+  font-size: 13px;
+  margin-top: -3px;
+  padding: 10px 18px;
+}
+.experience-main .main-content .left-content .content-show .show-des .man {
+  color: #f2a399;
+}
+.experience-main .main-content .left-content .content-show .show-des .short-des {
+  font-size: 15px;
+  color: #707070;
+}
+.experience-main .main-content .left-content .content-show .show-des .short-status {
+  color: #b5b5b5;
+  margin-top: 15px;
+}
+.experience-main .main-content .left-content .content-show .show-des .appnum {
+  float: right;
+}
+.experience-main .main-content .left-content .content-show:hover .show-mb {
+  transform: translate(320px, 0px);
+}
+.experience-main .main-content .right-content {
+  float: right;
+  width: 260px;
+  background-color: white;
+  font-size: 18px;
+  color: #3d3d3d;
+  padding: 30px 20px;
+}
+.experience-main .main-content .right-content .right-box-hot {
+  border-bottom: 1px solid #e8e8e8;
+}
+.experience-main .main-content .right-content .right-box-hot .hot-bq {
+  padding-top: 25px;
+}
+.experience-main .main-content .right-content .right-box-hot .hot-bq-list {
+  padding: 16px 0;
+}
+.experience-main .main-content .right-content .right-box-hot .hot-bq-list .bq {
+  padding: 1px 9px;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 15px;
+  color: white;
+  background-color: #aaa;
+  margin-bottom: 10px;
+}
+.experience-main .main-content .right-content .experience-section {
+  margin-top: 30px;
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 30px;
+}
+.experience-main .main-content .right-content .experience-section .officer-list {
+  padding: 15px 0;
+}
+.experience-main .main-content .right-content .experience-section .officer-list .officers {
+  width: 54px;
+  height: 54px;
+  border-radius: 27px;
+  margin-right: 5px;
+}
+.experience-main .main-content .right-content .report-experience .report-title {
+  padding: 10px 0;
+}
+.experience-main .main-content .right-content .report-experience .report-title .title-text {
+  font-size: 18px;
+  color: #3d3d3d;
+}
+.experience-main .main-content .right-content .report-experience .report-title .more {
+  font-size: 13px;
+  color: #2f2f2f;
+}
+.experience-main .main-content .right-content .report-experience .report-container {
+  margin-bottom: 10px;
+}
+.experience-main .main-content .right-content .report-experience .report-container .report-des {
+  width: 260px;
+  height: 55px;
+  background: #2f2f2f;
+  margin-top: -5px;
+}
+.experience-main .main-content .right-content .report-experience .report-container .report-des .des-link {
+  font-size: 14px;
+  color: #fff;
+  padding-left: 10px;
+}
+.experience-main .main-content .right-content .report-experience .report-container .report-des .des-date {
+  font-size: 12px;
+  color: #a0a0a0;
+  padding-left: 10px;
+}
+.experience-main .main-content .right-content .report-experience .report-list .img-des {
+  display: inline-block;
+  width: 165px;
+  height: 40px;
+  padding: 6px 3px;
+}
+.experience-main .main-content .right-content .report-experience .report-list .img-des .comment1 {
+  display: block;
+  font-size: 14px;
+  color: #828282;
+}
+.experience-main .main-content .right-content .report-experience .report-list .img-des .writer1 {
+  display: block;
+  font-size: 12px;
+  color: #b1b1b1;
+}
+.nav-title {
+  background: #2F2F2F;
+  border-bottom: 3px solid #50c8d7;
+  height: 50px;
+  width: 100%;
+  display: none;
+  z-index: 300;
+}
+.nav-title .title-container {
+  width: 1000px;
+  margin: 0px auto;
+}
+.nav-title .title-container .container-a {
+  height: 50px;
+  line-height: 50px;
+}
+.nav-title .title-container .container-a a {
+  color: #fff;
+  display: inline-block;
+  width: 80px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.nav-title .title-container .container-a a:hover {
+  background-color: #50c8d7;
+}
+.add-nav-title {
+  display: block;
+  position: fixed;
+  top: 0px;
+}
+/*experience-nav*/
+.experience-nav .nav-container .best:hover {
+  background: url(../images/experience/list_bigNav1.png) -10px -5px no-repeat;
+}
+.experience-nav .nav-container .travel:hover {
+  background: url(../images/experience/list_bigNav3.png) -7px -184px no-repeat;
+}
+.experience-nav .nav-container .leisure:hover {
+  background: url(../images/experience/list_bigNav2.png) -7px -184px no-repeat;
+}
+.experience-nav .nav-container .topic:hover {
+  background: url(../images/experience/list_bigNav4new.png) -8px -184px no-repeat;
+}
+/*experience-banner-bottom-main*/
+.experience-banner-bottom .banner-bottom-container a:hover {
+  text-decoration: none;
+}
+/*右边区域   right-content*/
+.right-content {
+  overflow: hidden;
+}
+.right-content div:nth-child(1) {
+  transition: 2s;
+}
+.right-content {
+  height: 300px;
+  overflow: hidden;
+}
+.right-content:hover {
+  transform: translate(0px, -10px);
+  box-shadow: 0px 8px 30px #D6D6D4;
+}
+.right-content div:nth-child(1):hover {
+  transform: translate(0px, -877px);
+}

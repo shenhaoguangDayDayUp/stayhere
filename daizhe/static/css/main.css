@@ -1,0 +1,171 @@
+/* 头部 跟  尾部*/
+/*-----------------------------header----------------------------*/
+header {
+  width: 100%;
+  height: 50px;
+  background: #111111;
+}
+header .container {
+  width: 1329px;
+  height: 49px;
+  padding-top: 1px;
+  margin: 0 auto;
+}
+header .container .logo {
+  display: block;
+  width: 135px;
+  height: 27px;
+  float: left;
+  padding-top: 1px;
+}
+header .container .logo img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+header .container nav {
+  font-size: 13px;
+  height: 20px;
+  width: 528px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+header .container nav a {
+  color: #fff;
+  height: 100%;
+  line-height: 20px;
+  display: inline-block;
+  margin: 0px 25px;
+  position: relative;
+}
+header .container nav a span {
+  color: #ff0000;
+  position: absolute;
+  top: -9px;
+  right: -27px;
+  font-size: 9px;
+}
+header .container nav a.on {
+  color: #50c8d7;
+}
+header .container .login {
+  width: 430px;
+  height: 28px;
+  float: right;
+  margin-top: 11px;
+  overflow: hidden;
+}
+header .container .login li {
+  height: 28px;
+  line-height: 28px;
+  float: left;
+  overflow: hidden;
+}
+header .container .login li:nth-child(1) {
+  width: 205px;
+  height: 28px;
+  position: relative;
+}
+header .container .login li:nth-child(1) input {
+  width: 200px;
+  height: 22px;
+  padding: 2px;
+  background: #2f2f2f;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  text-indent: 5px;
+}
+header .container .login li:nth-child(1) .btn {
+  display: block;
+  width: 30px;
+  height: 28px;
+  background: url("../images/home/searBtn.png") center no-repeat;
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  cursor: pointer;
+}
+header .container .login li:nth-child(2) {
+  width: 115px;
+}
+header .container .login li:nth-child(2) a {
+  font-size: 13px;
+  color: #a0a0a0;
+  padding: 0px 15px;
+}
+header .container .login li:nth-child(2) a:hover {
+  color: #50c8d7;
+}
+header .container .login li:nth-child(2) a:nth-child(1) {
+  border-right: 1px solid #3d3d3d;
+}
+header .container .login li:nth-child(3) {
+  width: 100px;
+}
+header .container .login li:nth-child(3) a {
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: #03aeba;
+  border-radius: 20px;
+}
+header .container .login li:nth-child(3) a:hover {
+  background: #5de1f2;
+}
+/*-----------------------------footer----------------------------*/
+footer {
+  width: 100%;
+  height: 384px;
+  background: #2f2f2f;
+}
+footer .container {
+  width: 920px;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+footer .container .footer-nav {
+  font-size: 15px;
+  width: 140px;
+  margin: 40px 22px 0px;
+  float: left;
+}
+footer .container .footer-nav p {
+  color: #50c8d7;
+  text-indent: 20px;
+}
+footer .container .footer-nav p:nth-child(2) {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+footer .container .footer-nav a {
+  display: block;
+  color: #818181;
+  line-height: 30px;
+  height: 30px;
+  text-indent: 20px;
+  background: url("../images/home/hf_bg.png") left -18px no-repeat;
+}
+footer .container .footer-nav a:hover {
+  text-decoration: underline;
+}
+footer .container .footer-nav .weibo {
+  font-size: 12px;
+  text-indent: 25px;
+  background: url("../images/home/sina_icon.png") left center no-repeat;
+}
+footer .container .footer-nav span {
+  display: block;
+  color: #818181;
+  font-size: 12px;
+  text-indent: 25px;
+  background: url("../images/home/weixin_icon.png") left center no-repeat;
+}
+footer .container .footer-nav img {
+  margin-top: 10px;
+}

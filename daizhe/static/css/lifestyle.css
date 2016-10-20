@@ -1,0 +1,393 @@
+.wrap1050 {
+  width: 1050px;
+  margin: 0 auto;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.lifestyle-banner {
+  position: relative;
+  width: 100%;
+  min-width: 1150px;
+  height: 499px;
+  background: url(../images/lifestyle/lifestyle_banner.jpg) top center no-repeat;
+}
+.lifestyle-banner .bot30 {
+  position: relative;
+  top: 430px;
+}
+.lifestyle-banner .search {
+  position: relative;
+  width: 368px;
+  margin: 0px auto;
+}
+.lifestyle-banner .search .note {
+  color: #a2a1a1;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-family: "Century Gothic";
+  font-size: 14px;
+}
+.lifestyle-banner .search .inp {
+  font-size: 14px;
+  width: 353px;
+  height: 36px;
+  padding-left: 5px;
+  background: #fff;
+  border: 2px solid #dfdfdf;
+  border-radius: 3px;
+}
+.lifestyle-banner .search input.focus {
+  border-color: #B6F3FD;
+}
+.lifestyle-banner .search .btn-search {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background: url(../images/lifestyle/lifestyle_images.png) no-repeat;
+  right: 24px;
+  top: 9px;
+  cursor: pointer;
+}
+.lifestyle-theme {
+  background-color: #000;
+}
+.lifestyle-theme .theme-title {
+  padding: 34px 0px 27px 0px;
+}
+.lifestyle-theme .theme-title h1 {
+  margin: 0px auto;
+  width: 135px;
+  height: 64px;
+  background: url(../images/lifestyle/lifestyle_images.png) 0px -34px no-repeat;
+}
+.lifestyle-theme .theme-hotlist {
+  padding-bottom: 65px;
+  overflow: hidden;
+}
+.lifestyle-theme .theme-hotlist .bg1 {
+  background: url(../images/lifestyle/themes/themes_bg1.jpg) no-repeat;
+}
+.lifestyle-theme .theme-hotlist .bg2 {
+  background: url(../images/lifestyle/themes/themes_bg2.jpg) no-repeat;
+}
+.lifestyle-theme .theme-hotlist .bg3 {
+  background: url(../images/lifestyle/themes/themes_bg3.jpg) no-repeat;
+}
+.lifestyle-theme .theme-hotlist .bg4 {
+  background: url(../images/lifestyle/themes/themes_bg4.jpg) no-repeat;
+}
+.lifestyle-theme .theme-hotlist .bg5 {
+  background: url(../images/lifestyle/themes/themes_bg5.jpg) no-repeat;
+}
+.lifestyle-theme .theme-hotlist .bg6 {
+  background: url(../images/lifestyle/themes/themes_bg6.jpg) no-repeat;
+}
+.lifestyle-theme .theme-hotlist .clmr {
+  margin-right: 0;
+}
+.lifestyle-theme .theme-hotlist li {
+  width: 346px;
+  height: 230px;
+  float: left;
+  position: relative;
+  margin: 0px 6px 6px 0px;
+  cursor: pointer;
+}
+.lifestyle-theme .theme-hotlist li .hotLike {
+  display: block;
+  width: 346px;
+  height: 230px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+}
+.lifestyle-theme .theme-hotlist li .mask {
+  width: 346px;
+  height: 230px;
+  background: url(../images/lifestyle/mask.png) no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+}
+.lifestyle-theme .theme-hotlist li .mask .title {
+  font-size: 23px;
+  color: #62edfe;
+  padding-top: 88px;
+}
+.lifestyle-theme .theme-hotlist li .mask .number {
+  font-size: 13.59px;
+  color: #fff;
+}
+.lifestyle-like {
+  width: 100%;
+  min-width: 1150px;
+  height: 535px;
+  background: url(../images/lifestyle/like_bg.jpg) top center no-repeat;
+}
+.lifestyle-like .like-left {
+  width: 670px;
+  height: 390px;
+  margin-top: 70px;
+}
+.lifestyle-like .like-left .top {
+  height: 74px;
+  background-color: #262626;
+  color: #a0a0a0;
+}
+.lifestyle-like .like-left .top .fl {
+  width: 101px;
+  height: 49px;
+  background: url(../images/lifestyle/lifestyle_images.png) 0px -207px no-repeat;
+  margin: 14px 0px 0px 19px;
+}
+.lifestyle-like .like-left .bottom {
+  position: relative;
+}
+.lifestyle-like .like-left .mainBox {
+  position: relative;
+}
+.lifestyle-like .like-left .mainBox .indicators {
+  position: absolute;
+  z-index: 1;
+  bottom: 90px;
+  left: 310px;
+}
+.lifestyle-like .like-left .mainBox .indicators li {
+  cursor: pointer;
+  display: inline-block;
+  zoom: 1;
+  text-align: center;
+  width: 8px;
+  height: 8px;
+  margin: 2px;
+  overflow: hidden;
+  background: #fff;
+  line-height: 9999;
+  border-radius: 100px;
+}
+.lifestyle-like .like-left .mainBox .indicators li .on {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 3px;
+}
+.lifestyle-like .like-left .mainBox .inner {
+  position: relative;
+  width: 670px;
+  height: 382px;
+}
+.lifestyle-like .like-left .mainBox .inner li {
+  width: 100%;
+  height: 382px;
+}
+.lifestyle-like .like-left .mainBox .inner .fr {
+  text-align: right;
+  position: absolute;
+  top: -58px;
+  right: 22px;
+}
+.lifestyle-like .like-left .mainBox .inner .fr h3 {
+  font-size: 22px;
+  font-family: "Century Gothic";
+}
+.lifestyle-like .like-left .mainBox .inner .fr h3 a {
+  color: #a0a0a0;
+}
+.lifestyle-like .like-left .mainBox .inner .fr h4 {
+  font-size: 14px;
+  color: #aaa;
+}
+.lifestyle-like .like-left .mainBox .inner .fr h4 a {
+  color: #aaa;
+}
+.lifestyle-like .like-left .mainBox .inner .bottom {
+  position: relative;
+}
+.lifestyle-like .like-left .mainBox .inner .bottom img {
+  width: 670px;
+  height: 306px;
+}
+.lifestyle-like .like-right {
+  width: 352px;
+  height: 380px;
+  margin-top: 70px;
+}
+.lifestyle-like .like-right .top {
+  height: 60px;
+  background-color: #262626;
+  padding-top: 14px;
+}
+.lifestyle-like .like-right .top .title {
+  width: 101px;
+  height: 49px;
+  background: url(../images/lifestyle/lifestyle_images.png) 0px -265px no-repeat;
+  margin: 0px 0px 0px 125px;
+}
+.lifestyle-like .like-right .appBox {
+  background: #f9f9f9;
+  height: 306px;
+}
+.lifestyle-like .like-right .appBox ul {
+  font-size: 14px;
+  color: #313131;
+}
+.lifestyle-like .like-right .appBox li {
+  width: 175px;
+  height: 104px;
+  float: left;
+  border-right: 1px dotted #d4d4d4;
+  border-bottom: 1px dashed #c5c5c5;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+.lifestyle-like .like-right .appBox li .titLink {
+  display: block;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 163px;
+  height: 91px;
+}
+.lifestyle-like .like-right .appBox li span {
+  display: block;
+  padding-top: 70px;
+}
+.lifestyle-like .like-right .appBox .li3,
+.lifestyle-like .like-right .appBox .li4 {
+  height: 96px;
+}
+.lifestyle-like .like-right .appBox .li3 span,
+.lifestyle-like .like-right .appBox .li4 span {
+  padding-top: 60px;
+}
+.lifestyle-like .like-right .appBox .clbr {
+  border-right: none;
+}
+.lifestyle-like .like-right .appBox .clbb {
+  border-bottom: none;
+}
+.lifestyle-like .like-right .appBox .li1 {
+  background: url('../images/lifestyle/institutions/institution_li1.png') center 20px no-repeat;
+}
+.lifestyle-like .like-right .appBox .li2 {
+  background: url('../images/lifestyle/institutions/institution_li2.png') center 20px no-repeat;
+}
+.lifestyle-like .like-right .appBox .li3 {
+  background: url('../images/lifestyle/institutions/institution_li3.png') center 20px no-repeat;
+}
+.lifestyle-like .like-right .appBox .li4 {
+  background: url('../images/lifestyle/institutions/institution_li4.png') center 20px no-repeat;
+}
+.lifestyle-like .like-right .appBox .li5 {
+  background: url('../images/lifestyle/institutions/institution_li5.png') center 20px no-repeat;
+}
+.lifestyle-like .like-right .appBox .li6 {
+  background: url('../images/lifestyle/institutions/institution_li6.png') center 20px no-repeat;
+}
+.lifestyle-country {
+  background-color: #f5f5f5;
+}
+.lifestyle-country .country-title {
+  padding: 40px 0 27px 0;
+}
+.lifestyle-country .country-title h1 {
+  margin: 0px auto;
+  width: 144px;
+  height: 66px;
+  background: url(../images/lifestyle/lifestyle_images.png) 0px -121px no-repeat;
+}
+.lifestyle-country .continent {
+  position: relative;
+  background: #ececec;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 14px 0px 8px 0px;
+}
+.lifestyle-country .continent ul.continent-list {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.lifestyle-country .continent ul.continent-list li {
+  float: left;
+  width: 223px;
+  height: 270px;
+  cursor: pointer;
+}
+.lifestyle-country .continent ul.continent-list li .a_link {
+  position: absolute;
+  display: block;
+  width: 185px;
+  height: 240px;
+  z-index: 1;
+}
+.lifestyle-country .continent ul.continent-list li span {
+  width: 150px;
+  height: 150px;
+  display: none;
+  background: url(../images/lifestyle/continents.png) no-repeat;
+  position: absolute;
+  top: 11px;
+}
+.lifestyle-country .continent ul.continent-list li .contin1 {
+  background-position: 0 0;
+  left: 0;
+}
+.lifestyle-country .continent ul.continent-list li .contin2 {
+  background-position: 0 -159px;
+  left: 225px;
+}
+.lifestyle-country .continent ul.continent-list li .contin3 {
+  background-position: 0 -316px;
+  left: 449px;
+}
+.lifestyle-country .continent ul.continent-list li .contin4 {
+  background-position: 0 -474px;
+  right: 216px;
+}
+.lifestyle-country .continent ul.continent-list li .contin5 {
+  background-position: 0 -631px;
+  right: -10px;
+}
+.lifestyle-country .continent ul.continent-list .asia,
+.lifestyle-country .continent ul.continent-list .america {
+  width: 185px;
+}
+.lifestyle-country .continent ul.continent-list .america {
+  width: 193px;
+  margin-left: 2px;
+}
+.lifestyle-country .countries {
+  background-color: #f5f5f5;
+  height: 100%;
+}
+.lifestyle-country .countries .country-list {
+  width: 120%;
+  margin-left: -30px;
+  height: 100%;
+}
+.lifestyle-country .countries .country-list li {
+  float: left;
+  width: 225px;
+  height: 592px;
+  padding: 28px 0 30px 0;
+}
+.lifestyle-country .countries .country-list li a {
+  display: block;
+  padding-left: 46px;
+  padding: 0 0 17px 80px;
+  font-size: 14px;
+  color: #7d7d7d;
+}
+.lifestyle-country .countries .country-list .asia {
+  width: 217px;
+}
+/*# sourceMappingURL=lifestyle.css.map */

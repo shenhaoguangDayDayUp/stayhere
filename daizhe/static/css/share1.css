@@ -1,0 +1,350 @@
+.share {
+  background: url('../images/share/bodyBg.png') #e5e5e5 repeat-x top;
+  min-width: 1150px;
+  overflow: hidden;
+  /*�ϲ�-----------------*/
+}
+.share .share-section {
+  width: 1000px;
+  margin: 0 auto;
+  min-height: 330px;
+  /*�ֲ�ͼ--------------*/
+  /*��Ϣ-----------*/
+}
+.share .share-section .article-carousel {
+  margin-top: 30px;
+  position: relative;
+  height: 250px;
+  /*�ֲ�ͼƬ����*/
+
+}
+/*轮播图*/
+#automatic { width: 970px; height: 344px; position: relative; margin: 0 auto; overflow: hidden; }
+
+.prev_div { width: 60px; height: 72px; position: absolute; top: 90px; left: 85px; z-index: 5; background: red; filter: alpha(opacity=0); opacity: 0; cursor: pointer; }
+.next_div { width: 60px; height: 72px; position: absolute; top: 90px; right: 63px; z-index: 5; background: red; filter: alpha(opacity=0); opacity: 0; cursor: pointer; }
+#automatic .prev {
+  width: 120px;
+  height: 72px;
+  position: absolute;
+  top: 72px;
+  left: 72px;
+  z-index: 4;
+}
+#automatic .prev .ico { width: 76px; height: 112px; position: absolute; top: 0; left: 0; background: url(../images/share/prev.png); }
+#automatic .prev .ico1 { width: 76px; height: 112px; position: absolute; top: 0; left: 0; background: url(../images/share/prev_1.png); z-index: 2; filter: alpha(opacity=0); opacity: 0; }
+#automatic .prev .txt { width: 106px; height: 112px; position: absolute; top: 0; left: 65px; background: url(../images/share/prev_txt.png) no-repeat; filter: alpha(opacity=0); opacity: 0; }
+
+#automatic .next { width: 120px; height: 72px; position: absolute; top: 72px; right: 52px; z-index: 4; }
+#automatic .next .ico { width: 76px; height: 112px; position: absolute; top: 0; right: 0; background: url(../images/share/next.png) no-repeat; }
+#automatic .next .ico1 { width: 76px; height: 112px; position: absolute; top: 0; right: 0px; background: url(../images/share/next_1.png) no-repeat; z-index: 2; filter: alpha(opacity=0); opacity: 0; }
+#automatic .next .txt { width: 106px; height: 112px; position: absolute; top: 0; right: 65px; background: url(../images/share/next_txt.png) no-repeat; filter: alpha(opacity=0); opacity: 0; }
+
+#automatic ul { width: 970px; height: 344px; position: absolute; top: 0; left: 0; z-index: 1; }
+#automatic li { position: absolute; }
+
+#automatic .line { border: 4px solid #fff; width: 672px; height: 336px; position: absolute; top: 0; left: 50%; margin-left: -340px; z-index: 3; }
+
+#automatic .pos_0 { top: -104px; left: 0; z-index: 1; filter: alpha(opacity=0); opacity: 0; }
+#automatic .pos_1 { top: 104px; left: 0; z-index: 2; filter: alpha(opacity=60); opacity: 0.6; }
+#automatic .pos_2 { top: 43px; left: 50px; z-index: 3; filter: alpha(opacity=80); opacity: 0.8; }
+#automatic .pos_3 { top: 0; left: 145px; z-index: 4; }
+#automatic .pos_4 { top: 43px; right: 50px; z-index: 3; filter: alpha(opacity=80); opacity: 0.8; }
+#automatic .pos_5 { top: 104px; right: 0; z-index: 2; filter: alpha(opacity=60); opacity: 0.6; }
+#automatic .pos_6 { top: -104px; right: 0; z-index: 1; filter: alpha(opacity=0); opacity: 0; }
+
+#footer { width: 970px; height: 30px; text-align: center; padding-top: 50px; margin: 0 auto; }
+#footer a { color: #930; font-family: arial; font-size: 15px; text-decoration: none; border-bottom: 1px dotted #930; }
+#footer a:hover { border-bottom: 1px solid #930; }
+
+/*----轮播图结束*/
+.share .share-section .article-middle {
+  margin-top: 15px;
+  overflow: hidden;
+  padding-bottom: 90px;
+  /*tab�л�-------*/
+}
+.share .share-section .article-middle .middle-left {
+  width: 660px;
+  float: left;
+  background: white;
+  min-height: 700px;
+  /*tab ����------*/
+  /*tab  ����------*/
+}
+.share .share-section .article-middle .middle-left .left-table {
+  margin: 0 35px;
+  border-bottom: 1px solid #F2F2F4;
+}
+.share .share-section .article-middle .middle-left .left-table ul {
+  font-size: 16px;
+}
+.share .share-section .article-middle .middle-left .left-table ul li {
+  display: inline-block;
+  height: 70px;
+  line-height: 70px;
+  padding-right: 40px;
+  cursor: pointer;
+}
+.share .share-section .article-middle .middle-left .left-table ul li a {
+  text-decoration: none;
+  color: #707070;
+  font-size: 16px;
+}
+.share .share-section .article-middle .middle-left .left-table ul li a:hover {
+  color: cornflowerblue;
+}
+.share .share-section .article-middle .middle-left .left-table ul .li a {
+  color: cornflowerblue;
+}
+.share .share-section .article-middle .middle-left .left-content .content-header {
+  padding-top: 16px;
+  padding-left: 35px;
+  height: 20px;
+}
+.share .share-section .article-middle .middle-left .left-content .content-header .header a {
+  text-decoration: none;
+  color: #434343;
+  font-size: 14px;
+  margin-right: 17px;
+  padding: 1px 5px;
+}
+.share .share-section .article-middle .middle-left .left-content .content-header .header a:hover {
+  text-decoration: underline;
+}
+.share .share-section .article-middle .middle-left .left-content .content-header .header .a {
+  background: black;
+  color: white;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info {
+  overflow: hidden;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .info {
+  padding: 0px 35px 10px 35px;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .info .info-content {
+  border-bottom: 1px solid #ECECEC;
+  padding: 30px 0px 35px 0px;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .info .info-content .top {
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .info .info-content .top .left {
+  float: left;
+  width: 50px;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .info .info-content .top .left img {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .info .info-content .top .right {
+  float: left;
+  margin-left: 13px;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .info .info-content .top .right p a {
+  text-decoration: none;
+  color: #535353;
+  font-size: 18px;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .info .info-content .top .right p a:hover {
+  text-decoration: underline;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .info .info-content .top .right div {
+  margin: 5px 0px;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .info .info-content .top .right div a,
+.share .share-section .article-middle .middle-left .left-content .content-info .info .info-content .top .right div span {
+  text-decoration: none;
+  color: #535353;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .info .info-content .top .right div a:nth-child(1):hover {
+  text-decoration: underline;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .info .info-content .top .right div a:nth-child(2) {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  background: url('../images/share/title2.png') -30px 0px no-repeat;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .info .info-content .middle {
+  padding-left: 63px;
+  clear: both;
+  overflow: hidden;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .info .info-content .middle a {
+  font-size: 14px;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .info .info-content .middle a img {
+  float: left;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .info .info-content .middle a:nth-child(1) {
+  overflow: hidden;
+  margin-right: 30px;
+  float: left;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .info .info-content .middle a:nth-child(2) {
+  line-height: 20px;
+  color: #959595;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .info .info-content .middle a:hover {
+  color: #535353;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .info .info-content .bottom {
+  margin-top: 24px;
+  overflow: hidden;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .info .info-content .bottom ul {
+  float: right;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .info .info-content .bottom ul li {
+  float: left;
+  padding-left: 22px;
+  margin-right: 10px;
+  color: #959595;
+  background: url('../images/share/index_icos.png') no-repeat;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .info .info-content .bottom ul li:nth-child(1) {
+  background-position: 0 1px;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .info .info-content .bottom ul li:nth-child(2) {
+  background-position: 0px -26px;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .info .info-content .bottom ul li:nth-child(3) {
+  background-position: 0px -56px;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .number {
+  padding: 55px 90px;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .number ul li {
+  display: inline-block;
+  padding: 1px 8px;
+  height: 24px;
+  text-align: center;
+  line-height: 24px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #666;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .number ul li:nth-child(1) {
+  background: #4EC9D6;
+}
+.share .share-section .article-middle .middle-left .left-content .content-info .number ul li:hover {
+  background: #4EC9D6;
+  color: #FFF;
+}
+.share .share-section .article-middle .middle-right {
+  width: 312px;
+  height: 100px;
+  float: right;
+}
+.share .share-section .article-middle .middle-right .top a {
+  height: 55px;
+  width: 100%;
+  text-decoration: none;
+  background: #fcb616;
+  text-align: center;
+  line-height: 55px;
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+}
+.share .share-section .article-middle .middle-right .top a i {
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  background: url('../images/share/com_icos.png') 0 -265px no-repeat;
+  position: relative;
+  top: 5px;
+  margin-right: 6px;
+}
+.share .share-section .article-middle .middle-right .top a:hover {
+  background: rgba(252, 182, 22, 0.8);
+}
+.share .share-section .article-middle .middle-right .btn-middle {
+  margin-top: 25px;
+  border: 1px solid #DEDEDE;
+  min-height: 200px;
+  padding: 0 25px;
+  background: white;
+  padding-bottom: 30px;
+}
+.share .share-section .article-middle .middle-right .btn-middle .first {
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+.share .share-section .article-middle .middle-right .btn-middle .first a {
+  display: block;
+}
+.share .share-section .article-middle .middle-right .btn-middle .first a img {
+  transition: 2s;
+}
+.share .share-section .article-middle .middle-right .btn-middle .first a:hover img {
+  border-radius: 100px;
+  transform: scale(1.2) rotateY(720deg);
+}
+.share .share-section .article-middle .middle-right .btn-middle .event .event-border {
+  border-bottom: 1px solid #E8E8E8;
+  padding-bottom: 30px;
+}
+.share .share-section .article-middle .middle-right .btn-middle .event .event-border h3 {
+  font-size: 16px;
+  color: #3d3d3d;
+  padding-bottom: 22px;
+}
+.share .share-section .article-middle .middle-right .btn-middle .event .event-border div ul li {
+  display: inline-block;
+  padding: 0 5px 10px 6px;
+}
+.share .share-section .article-middle .middle-right .btn-middle .event .event-border div ul li a img {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  transition: all .3s ease;
+}
+.share .share-section .article-middle .middle-right .btn-middle .event .event-border div ul li:hover a img {
+  transform: scale(1.1);
+}
+.share .share-section .article-middle .middle-right .btn-middle .event .event-bottom {
+  margin-top: 27px;
+}
+.share .share-section .article-middle .middle-right .btn-middle .event .event-bottom h3 {
+  color: #3d3d3d;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+.share .share-section .article-middle .middle-right .btn-middle .event .event-bottom div ul li {
+  padding: 10px 0;
+}
+.share .share-section .article-middle .middle-right .btn-middle .event .event-bottom div ul li i {
+  width: 5px;
+  height: 5px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #b7b7b7;
+  position: relative;
+  top: -2px;
+}
+.share .share-section .article-middle .middle-right .btn-middle .event .event-bottom div ul li .one {
+  background: #ff6e68;
+}
+.share .share-section .article-middle .middle-right .btn-middle .event .event-bottom div ul li .two {
+  background: #ffc031;
+}
+.share .share-section .article-middle .middle-right .btn-middle .event .event-bottom div ul li .three {
+  background: #a0cd4e;
+}
+.share .share-section .article-middle .middle-right .btn-middle .event .event-bottom div ul li .forth {
+  background: pink;
+}
+.share .share-section .article-middle .middle-right .btn-middle .event .event-bottom div ul li a {
+  color: #7c7c7c;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 15px;
+}
+.share .share-section .article-middle .middle-right .btn-middle .event .event-bottom div ul li a:hover {
+  color: black;
+}

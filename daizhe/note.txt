@@ -1,0 +1,23 @@
+﻿提交的文件夹命名规范
+如：王光星负责首页（home)，该提交的文件以及文件命名如下：
+	daizhe-王光星
+		-static
+			--components
+			--css
+				---home.css(命名参考daizhe网站类名命名)
+			--images
+				---home(图片命名参考daizhe网站中的图片名称命名)
+			--js
+				---home.js
+			--less
+				---home.less
+			--pages
+				---home.html
+
+
+
+命名规范：
+	类名：
+		不用id来编写样式：重用性太差
+		类名全部小写，不存在驼峰命名!!!不用下划线_，可用空格或者短横线-
+		需要用在js中的类可加上前缀'js-类名',来标志该类名只用于js中dom操作

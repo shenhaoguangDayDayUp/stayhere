@@ -1,0 +1,343 @@
+.status {
+  width: 100%;
+  background-color: #E5E5E5;
+}
+.status .status-container {
+  padding-top: 70px;
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+.status .status-container .container-content-left {
+  display: inline-block;
+  position: relative;
+  width: 658px;
+  height: auto;
+}
+  /*---------左上----------*/
+  /*左下*/
+.status .status-container .container-content-left .content-top {
+  width: 100%;
+  height: 229px;
+  background-color: white;
+}
+.status .status-container .container-content-left .content-top .top-release {
+  padding: 45px 35px 20px 35px;
+}
+.status .status-container .container-content-left .content-top .top-release .release-clear a {
+  display: inline-block;
+}
+.status .status-container .container-content-left .content-top .top-release .release-clear a img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+}
+.status .status-container .container-content-left .content-top .top-release .release-clear h3 {
+  display: inline-block;
+  font-size: 16px;
+  color: #7d7d7d;
+  position: relative;
+  top: -22px;
+  left: 16px;
+}
+.status .status-container .container-content-left .content-top .top-release .release-clear h3 span {
+  width: 298px;
+  height: 20px;
+  display: inline-block;
+}
+.status .status-container .container-content-left .content-top .top-search {
+  height: 100px;
+  width: 90%;
+  margin: 0 auto;
+}
+.status .status-container .container-content-left .content-top .top-search input {
+  width: 568px;
+  border: 1px solid #e6e6e6;
+  height: 31px;
+  padding: 7px 10px 0px 13px;
+  border-radius: 2px;
+  background: #f2f2f2;
+  resize: none;
+  outline: none;
+  font-size: 14px;
+  color: #bfbfbf;
+}
+.status .status-container .container-content-left .content-top .top-search a {
+  display: inline-block;
+  float: right;
+  font-size: 15px;
+  margin-top: 10px;
+  background-color: #72D8E5;
+  padding: 10px 26px;
+  color: white;
+}
+.status .status-container .container-content-left .content-top .top-search a:hover {
+  text-decoration: none;
+}
+.status .status-container .container-content-left .content-article {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+.status .status-container .container-content-left .content-article .article-nav {
+  width: 589px;
+  height: 42px;
+  font-size: 16px;
+  color: #434343;
+  border-bottom: 1px solid #ececec;
+  margin: 30px 34px 0px 34px;
+  padding-bottom: 20px;
+}
+.status .status-container .container-content-left .content-article .article-nav span {
+  display: inline-block;
+  font-size: 16px;
+  padding-right: 10px;
+  height: 42px;
+  line-height: 60px;
+  cursor: pointer;
+}
+.status .status-container .container-content-left .content-article .article-cur {
+  padding: 20px 35px 0px 35px;
+}
+.status .status-container .container-content-left .content-article .article-cur li {
+  float: left;
+  font-size: 14px;
+  color: #434343;
+  margin-right: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+.status .status-container .container-content-left .content-article .article-cur .cur {
+  background: #3d3d3d;
+  color: #fff;
+  padding: 1px 6px 2px 6px;
+}
+.status .status-container .container-content-left .content-article .article-cur .cur a {
+  color: #fff;
+}
+.status .status-container .container-content-left .content-article .article-list {
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #ECECEC;
+  padding: 10px 0;
+  margin: 5px 0;
+}
+.status .content-article .article-list:last-child {
+  border-bottom: none;
+}
+.status .status-container .container-content-left .content-article .article-list .list-info {
+  margin: 0 auto;
+  width: 589px;
+  color: #9595A2;
+}
+.status .status-container .container-content-left .content-article .article-list .list-info .info-user {
+  color: #9595A2;
+}
+.status .status-container .container-content-left .content-article .article-list .list-info .info-user a {
+  display: inline-block;
+  vertical-align: middle;
+}
+.status .status-container .container-content-left .content-article .article-list .list-info .info-user a img {
+  width: 50px;
+  height: 50px;
+}
+.status .status-container .container-content-left .content-article .article-list .list-info .info-user span {
+  display: inline-block;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.status .status-container .container-content-left .content-article .article-list .list-info .info-user time {
+  float: right;
+  line-height: 50px;
+}
+.status .status-container .container-content-left .content-article .article-list .list-info .info-zx {
+  padding-top: 40px;
+  height: 50px;
+  font-size: 15px;
+}
+.status .status-container .container-content-left .content-article .article-list .list-info .info-zx p:nth-child(1) {
+  padding: 10px;
+}
+.status .status-container .container-content-left .content-article .article-list .list-info .info-zx p:nth-child(3) {
+  display: inline-block;
+  float: right;
+  padding-bottom: 50px;
+  height: 20px;
+}
+.status .status-container .container-content-left .content-article .article-list .list-info .info-zx p:nth-child(3) span {
+  display: inline-block;
+  width: 15px;
+  height: 14px;
+  font-size: 12px;
+  color: #959595;
+  position: relative;
+  top: 3px;
+  margin: 0 2px;
+  cursor: pointer;
+}
+.status .status-container .container-content-left .content-article .article-list .list-info .info-zx p:nth-child(3) .span-nth-child1 {
+  background: url(../images/status/icos.png) -31px -24px no-repeat;
+}
+.status .status-container .container-content-left .content-article .article-list .list-info .info-zx p:nth-child(3) .span-nth-child2 {
+  background: url(../images/status/icos.png) -31px 0px no-repeat;
+}
+.status .status-container .container-content-left .content-article .article-list .list-info .info-zx p:nth-child(3) span:nth-child(1):hover {
+  background: url(../images/status/icos.png) -31px -24px no-repeat;
+}
+.status .status-container .container-content-left .content-article .article-list .list-info .info-zx p:nth-child(3) span:nth-child(3) {
+  margin-left: 10px;
+  background: url(../images/status/icos.png) -298px 0px no-repeat;
+}
+.status .status-container .container-content-right {
+  margin-left: 23px;
+  position: absolute;
+  display: inline-block;
+  width: 312px;
+  /*height 需要改动*/
+  height: 2000px;
+}
+.status .status-container .container-content-right .content-right {
+  width: 312px;
+  height: 700px;
+  background-color: white;
+}
+.status .status-container .container-content-right .content-right .right-user {
+  padding: 0px 34px 16px 35px;
+}
+.status .status-container .container-content-right .content-right .right-user h1 {
+  font-size: 18px;
+  padding-left: 0px;
+  color: #3d3d3d;
+  padding-bottom: 20px;
+}
+.status .status-container .container-content-right .content-right .right-user h1 {
+  padding: 28px 0px 13px 0px;
+}
+.status .status-container .container-content-right .content-right .right-user .user-s {
+  width: 108%;
+}
+.status .status-container .container-content-right .content-right .right-user .user-s a {
+  display: inline-block;
+  text-decoration: none;
+  cursor: auto;
+  font-size: 12px;
+  color: #fff;
+  background: #aaa;
+  border-radius: 15px;
+  padding: 1px 9px;
+  margin: 0px 5px 10px 0px;
+}
+.status .status-container .container-content-right .content-right .right-user .user-s a:hover {
+  background-color: #3D3D3D;
+}
+.status .status-container .container-content-right .content-right .right-active .active-user {
+  color: #3d3d3d;
+  font-size: 18px;
+  padding: 28px 0px 13px 30px;
+}
+.status .status-container .container-content-right .content-right .right-active .user-list {
+  width: 100%;
+}
+.status .status-container .container-content-right .content-right .right-active .user-list li {
+  padding: 7px 0px 4px 30px;
+  position: relative;
+  width: 280px;
+  height: 68px
+  /*hover关注蒙版*/
+}
+.status .status-container .container-content-right .content-right .right-active .user-list li div {
+  display: inline-block;
+}
+.status .status-container .container-content-right .content-right .right-active .user-list li .use-pic {
+  border-radius: 50%;
+  margin-top: 5px;
+  border: 2px solid #ddd;
+}
+.status .status-container .container-content-right .content-right .right-active .user-list li .use-content {
+  width: 200px;
+  text-indent: 10px;
+  height: 58px;
+}
+.status .status-container .container-content-right .content-right .right-active .user-list li .model_imgFloat {
+  display: none;
+  text-align: left;
+  z-index: 999;
+  border-radius: 5px;
+  position: absolute;
+  background: #3d3d3d;
+  padding: 17px;
+  width: 216px;
+  top: 70px;
+  left: 24px;
+}
+.status .status-container .container-content-right .content-right .right-active .user-list li .model_imgFloat .f-san {
+  text-align: left;
+  left: 29px;
+  width: 9px;
+  height: 7px;
+  background: url(../images/status/bbs_addIco.png) no-repeat;
+  position: absolute;
+  top: -7px;
+  z-index: 999;
+}
+.status .status-container .container-content-right .content-right .right-active .user-list li h4 a {
+  font-size: 16px;
+  color: #50c8d7;
+}
+.status .status-container .container-content-right .content-right .right-active .user-list li p {
+  color: #AAAAAA;
+}
+.status .status-container .container-content-right .content-right .right-active .user-list li .likeMe a {
+  margin-left: 3px;
+  color: #fff;
+  width: 68px;
+  height: 23px;
+  text-align: center;
+  line-height: 23px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 2px;
+  position: relative;
+  left: -2px;
+  margin-top: 9px;
+  background-color: #4EC7D6;
+  padding: 5px 11px;
+}
+.status .status-container .container-content-right .content-right .right-active .user-list li:hover {
+  background-color: #F2F2F2;
+}
+.status .status-container .container-content-right .content-right .right-active .user-list li:hover .model_imgFloat {
+  display: block;
+}
+.add-content-article {
+  color: #55D0E7;
+}
+.add-info-article {
+  display: block;
+}
+.add-info-zx {
+  background: url(../images/status/icos.png) -31px -24px no-repeat;
+}
+
+
+.status .status-container .container-content-left .content-article .comment-list .article-list {
+  /*                 星添加   注意结束花括号                  */
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #ECECEC;
+  padding: 10px 0;
+  margin: 5px 0;
+  display: none;
+}
+.status .status-container .container-content-left .content-article .comment-list .article-list:last-child {
+  border-bottom: none;
+}
+
+.status .status-container .container-content-left .content-article .comment-list .article-list:nth-child(1),
+.status .status-container .container-content-left .content-article .comment-list .article-list:nth-child(2),
+.status .status-container .container-content-left .content-article .comment-list .article-list:nth-child(3) {
+  display: block;
+}
+/*                 星添加                    */

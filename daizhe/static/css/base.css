@@ -1,0 +1,257 @@
+html, input, textarea {  font: normal 12px 'Microsoft YaHei', '微软雅黑', 'Century Gothic', 'Helvetica', 'Hiragino Sans GB W3', 'SimSun', '宋体', 'Heiti', '黑体', 'Arial', 'sans-serif'; }
+body, button, ul, li, ol, p, dl, dd, h1, h2, h3, h4, h5, h6, img, iframe, form, input, textarea, td, header, footer, nav, main, figure, figcaption, section, article, aside, dl, dt, dd{ margin: 0; padding: 0; list-style-type: none; border: 0; font-weight: normal; }
+table { border-collapse: collapse; border-spacing: 0; }
+*:focus {outline: none;} 
+a{color:#50c8d7; text-decoration:none; }
+a:hover { text-decoration:underline; }
+.bgCcc{ background:#ebebeb;}
+.clear:before, .clear:after { content: '.'; display: block; overflow: hidden; visibility: hidden; font-size: 0; line-height: 0; width: 0; height: 0;}
+.clear:after { clear: both;}
+i,em{ font-style:normal;}
+.clear { zoom: 1;}
+.left {
+    float: left;
+}
+
+
+
+/* 头部 跟  尾部*/
+/*-----------------------------header----------------------------*/
+
+header {
+    width: 100%;
+    height: 50px;
+    background: #111111;
+}
+header .container {
+    width: 100%;
+    min-width: 1200px;
+    height: 49px;
+    padding-top: 1px;
+    margin: 0 auto;
+    position: relative;
+}
+header .container .logo {
+    display: block;
+    width: 135px;
+    height: 27px;
+    float: left;
+    margin-left: 50px;
+}
+header .container .logo a {
+    text-decoration: none;
+}
+header .container .logo img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+header .container nav {
+    font-size: 13px;
+    height: 20px;
+    width: 560px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+header .container nav a {
+    color: #fff;
+    height: 100%;
+    line-height: 20px;
+    display: inline-block;
+    margin: 0px 20px;
+    position: relative;
+    text-decoration: none;
+}
+header .container nav a span {
+    color: #ff0000;
+    position: absolute;
+    top: -9px;
+    right: -30px;
+    font-size: 9px;
+}
+header .container nav a.on {
+    color: #50c8d7;
+}
+header .container .login {
+    position: relative;
+    right: 50px;
+    height: 28px;
+    float: right;
+    margin-top: 11px;
+    overflow: hidden;
+}
+header .container .login a {
+    text-decoration: none;
+}
+header .container .login li {
+    height: 28px;
+    line-height: 28px;
+    float: left;
+    overflow: hidden;
+}
+header .container .login li:nth-child(1) {
+    width: 205px;
+    height: 28px;
+    position: relative;
+}
+header .container .login li:nth-child(1) input {
+    width: 200px;
+    height: 22px;
+    padding: 2px;
+    background: #2f2f2f;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    text-indent: 5px;
+}
+header .container .login li:nth-child(1) .btn {
+    display: block;
+    width: 30px;
+    height: 28px;
+    background: url("../images/home/searBtn.png") center no-repeat;
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    cursor: pointer;
+}
+header .container .login li:nth-child(2) {
+    width: 125px;
+}
+header .container .login li:nth-child(2) a {
+    font-size: 13px;
+    color: #a0a0a0;
+    padding: 0px 15px;
+}
+header .container .login li:nth-child(2) a:hover {
+    color: #50c8d7;
+}
+header .container .login li:nth-child(2) a:nth-child(1) {
+    border-right: 1px solid #3d3d3d;
+}
+header .container .login li:nth-child(3) {
+    width: 100px;
+}
+header .container .login li:nth-child(3) a {
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: #03aeba;
+    border-radius: 20px;
+}
+header .container .login li:nth-child(3) a:hover {
+    background: #02becb;
+}
+
+
+/*-----------------------------footer----------------------------*/
+footer {
+    width: 100%;
+    height: 384px;
+    background: #2f2f2f;
+}
+footer .container {
+    width: 920px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+footer .container .footer-nav {
+    font-size: 15px;
+    width: 140px;
+    margin: 40px 22px 0px;
+    float: left;
+}
+footer .container .footer-nav p {
+    color: #50c8d7;
+    text-indent: 20px;
+}
+footer .container .footer-nav p:nth-child(2) {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+footer .container .footer-nav a {
+    display: block;
+    color: #818181;
+    line-height: 30px;
+    height: 30px;
+    text-indent: 20px;
+    background: url("../images/home/hf_bg.png") left -18px no-repeat;
+}
+footer .container .footer-nav a:hover {
+    text-decoration: underline;
+}
+footer .container .footer-nav .weibo {
+    font-size: 12px;
+    text-indent: 25px;
+    background: url("../images/home/sina_icon.png") left center no-repeat;
+}
+footer .container .footer-nav span {
+    display: block;
+    color: #818181;
+    font-size: 12px;
+    text-indent: 25px;
+    background: url("../images/home/weixin_icon.png") left center no-repeat;
+}
+footer .container .footer-nav img {
+    margin-top: 10px;
+}
+
+/*回到首部*/
+.go-top {
+  width: 60px;
+  position: fixed;
+  bottom: 10%;
+  right: 6%;
+    z-index: 999;
+}
+.go-top li {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  background: url("../images/home/returnTop.png") no-repeat;
+}
+.go-top a:nth-child(1) li{
+  background-position: 0px 0px;
+}
+.go-top a:nth-child(1) li:hover {
+  background-position: 0px -66px;
+}
+.go-top a:nth-child(2) li{
+  background-position: -67px 0px;
+}
+.go-top a:nth-child(2) li:hover {
+  background-position: -67px -66px;
+}
+.go-top a:nth-child(3) li{
+  background-position: -133px 0px;
+}
+.go-top a:nth-child(3) li:hover {
+  background-position: -133px -66px;
+}
+
+/*分页导航*/
+.pagenav {
+    width:660px;
+    clear: left;
+    text-align: center;
+    padding: 20px 0px 24px;
+}
+.pagenav a {
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    padding: 0px 9px;
+    margin: 0px 4px;
+    font-size: 14px;
+    color: #666;
+}
+.pagenav a:hover,.pagenav .on {
+    background: #4EC9D6;
+    color: #FFF;
+    border-radius: 4px;
+    text-decoration: none;
+}
